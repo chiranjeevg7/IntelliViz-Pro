@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Environment Variables
+.env
+*.env
+
+dist/
+
+build/
+
+# File Uploads / Temporary Storage
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE Settings
+.vscode/
+.idea/
