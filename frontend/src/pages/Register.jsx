@@ -63,6 +63,7 @@ const Register = () => {
               value={formData.email}
               onChange={handleChange}
               placeholder="name@company.com"
+              autoComplete="email"
               required
               style={styles.input}
             />
@@ -76,6 +77,7 @@ const Register = () => {
               value={formData.password}
               onChange={handleChange}
               placeholder="At least 6 characters"
+              autoComplete="new-password"
               required
               minLength="6"
               style={styles.input}
